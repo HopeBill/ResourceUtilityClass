@@ -1,0 +1,36 @@
+{
+  "name": "ResourceUtilityClass",
+  "version": "0.1.0",
+  "summary": "ResourceUtilityClass.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LiBiYong/ResourceUtilityClass",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1255418023@qq.com": "1255418023@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LiBiYong/ResourceUtilityClass.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "SDWebImage": [
+      "~>4.4.2"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Tool_moudle",
+      "source_files": "OpenSourceLibrary/Tool_moudle/**/*"
+    },
+    {
+      "name": "Header_moudle",
+      "source_files": "OpenSourceLibrary/Header_moudle/**/*"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+//
+//  OneKeyBrotherPrefixHeader.pch
+//  OneKeyBrother
+//
+//  Created by Bill on 9/4/2019.
+//  Copyright © 2019 Bill. All rights reserved.
+//
+
+#ifndef OneKeyBrotherPrefixHeader_pch
+#define OneKeyBrotherPrefixHeader_pch
+
+#import "MacroHeader.h"
+#import "ConfigHeader.h"
+#import "RequestAPIHeader.h"
+#endif /* OneKeyBrotherPrefixHeader_pch */

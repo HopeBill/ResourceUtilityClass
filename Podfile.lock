@@ -1,0 +1,31 @@
+PODS:
+  - ResourceUtilityClass (0.1.0):
+    - ResourceUtilityClass/Header_moudle (= 0.1.0)
+    - ResourceUtilityClass/Tool_moudle (= 0.1.0)
+    - SDWebImage (~> 4.4.2)
+  - ResourceUtilityClass/Header_moudle (0.1.0):
+    - SDWebImage (~> 4.4.2)
+  - ResourceUtilityClass/Tool_moudle (0.1.0):
+    - SDWebImage (~> 4.4.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - ResourceUtilityClass (from `../Example`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  ResourceUtilityClass:
+    :path: "../Example"
+
+SPEC CHECKSUMS:
+  ResourceUtilityClass: ae5a072336cc150a8e703ccdfafad244e21400c7
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: 0a6aeb327677813197d3465aa3cefb3de21fd501
+
+COCOAPODS: 1.5.3
