@@ -20,9 +20,7 @@
 		A90918B222CB369A003A5E96 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918AF22CB369A003A5E96 /* Tool.m */; };
 		A90918B322CB369A003A5E96 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918B022CB369A003A5E96 /* Helper.m */; };
 		A90918CA22CB38E9003A5E96 /* NSDate+TimeInterVal.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918B722CB38E9003A5E96 /* NSDate+TimeInterVal.m */; };
-		A90918CB22CB38E9003A5E96 /* UIView+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918B822CB38E9003A5E96 /* UIView+Tool.m */; };
 		A90918CC22CB38E9003A5E96 /* NSMutableAttributedString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918BB22CB38E9003A5E96 /* NSMutableAttributedString+Tool.m */; };
-		A90918CD22CB38E9003A5E96 /* UIView+Layout1.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918BC22CB38E9003A5E96 /* UIView+Layout1.m */; };
 		A90918CE22CB38E9003A5E96 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918BE22CB38E9003A5E96 /* UIView+Layout.m */; };
 		A90918CF22CB38E9003A5E96 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918BF22CB38E9003A5E96 /* NSString+Tool.m */; };
 		A90918D022CB38E9003A5E96 /* NSArray+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918C122CB38E9003A5E96 /* NSArray+Tool.m */; };
@@ -66,31 +64,24 @@
 		A909186022CB0BFC003A5E96 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A909186422CB0BFC003A5E96 /* ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUITests.m; sourceTree = "<group>"; };
 		A909186622CB0BFC003A5E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A909187322CB0CF9003A5E96 /* ResourceUtilityClass.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ResourceUtilityClass.podspec; sourceTree = SOURCE_ROOT; };
-		A909188422CB0EDE003A5E96 /* ConfigHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigHeader.h; sourceTree = "<group>"; };
-		A909188522CB0EDE003A5E96 /* RequestAPIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestAPIHeader.h; sourceTree = "<group>"; };
-		A909188622CB0EDE003A5E96 /* PrefixAPIHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixAPIHeader.pch; sourceTree = "<group>"; };
-		A909188722CB0EDE003A5E96 /* MacroHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
+		A909187322CB0CF9003A5E96 /* ResourceUtilityClass.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ResourceUtilityClass.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A909188422CB0EDE003A5E96 /* ResourceUtilityClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceUtilityClass.h; sourceTree = "<group>"; };
 		A90918AE22CB369A003A5E96 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
 		A90918AF22CB369A003A5E96 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 		A90918B022CB369A003A5E96 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
 		A90918B122CB369A003A5E96 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
 		A90918B622CB38E9003A5E96 /* NSArray+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Tool.h"; sourceTree = "<group>"; };
 		A90918B722CB38E9003A5E96 /* NSDate+TimeInterVal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeInterVal.m"; sourceTree = "<group>"; };
-		A90918B822CB38E9003A5E96 /* UIView+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tool.m"; sourceTree = "<group>"; };
 		A90918B922CB38E9003A5E96 /* NSNumber+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Tool.h"; sourceTree = "<group>"; };
 		A90918BA22CB38E9003A5E96 /* NSDictionary+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Tool.h"; sourceTree = "<group>"; };
 		A90918BB22CB38E9003A5E96 /* NSMutableAttributedString+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Tool.m"; sourceTree = "<group>"; };
-		A90918BC22CB38E9003A5E96 /* UIView+Layout1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout1.m"; sourceTree = "<group>"; };
 		A90918BD22CB38E9003A5E96 /* UIImageView+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Tool.h"; sourceTree = "<group>"; };
 		A90918BE22CB38E9003A5E96 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		A90918BF22CB38E9003A5E96 /* NSString+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
 		A90918C022CB38E9003A5E96 /* NSDate+TimeInterVal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeInterVal.h"; sourceTree = "<group>"; };
 		A90918C122CB38E9003A5E96 /* NSArray+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Tool.m"; sourceTree = "<group>"; };
-		A90918C222CB38E9003A5E96 /* UIView+Layout1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout1.h"; sourceTree = "<group>"; };
 		A90918C322CB38E9003A5E96 /* NSMutableAttributedString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Tool.h"; sourceTree = "<group>"; };
 		A90918C422CB38E9003A5E96 /* NSDictionary+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Tool.m"; sourceTree = "<group>"; };
-		A90918C522CB38E9003A5E96 /* UIView+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tool.h"; sourceTree = "<group>"; };
 		A90918C622CB38E9003A5E96 /* NSNumber+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Tool.m"; sourceTree = "<group>"; };
 		A90918C722CB38E9003A5E96 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		A90918C822CB38E9003A5E96 /* NSString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
@@ -213,10 +204,8 @@
 		A909188322CB0EDE003A5E96 /* Header_moudle */ = {
 			isa = PBXGroup;
 			children = (
-				A909188422CB0EDE003A5E96 /* ConfigHeader.h */,
-				A909188522CB0EDE003A5E96 /* RequestAPIHeader.h */,
-				A909188622CB0EDE003A5E96 /* PrefixAPIHeader.pch */,
-				A909188722CB0EDE003A5E96 /* MacroHeader.h */,
+				A90918B122CB369A003A5E96 /* Tool.h */,
+				A90918AF22CB369A003A5E96 /* Tool.m */,
 			);
 			path = Header_moudle;
 			sourceTree = "<group>";
@@ -226,8 +215,6 @@
 			children = (
 				A90918AE22CB369A003A5E96 /* Helper.h */,
 				A90918B022CB369A003A5E96 /* Helper.m */,
-				A90918B122CB369A003A5E96 /* Tool.h */,
-				A90918AF22CB369A003A5E96 /* Tool.m */,
 			);
 			path = Tool_moudle;
 			sourceTree = "<group>";
@@ -251,10 +238,7 @@
 				A90918C922CB38E9003A5E96 /* UIImageView+Tool.m */,
 				A90918C722CB38E9003A5E96 /* UIView+Layout.h */,
 				A90918BE22CB38E9003A5E96 /* UIView+Layout.m */,
-				A90918C222CB38E9003A5E96 /* UIView+Layout1.h */,
-				A90918BC22CB38E9003A5E96 /* UIView+Layout1.m */,
-				A90918C522CB38E9003A5E96 /* UIView+Tool.h */,
-				A90918B822CB38E9003A5E96 /* UIView+Tool.m */,
+				A909188422CB0EDE003A5E96 /* ResourceUtilityClass.h */,
 			);
 			path = Object_Categories;
 			sourceTree = "<group>";
@@ -270,7 +254,7 @@
 				A909183922CB0BFB003A5E96 /* Sources */,
 				A909183A22CB0BFB003A5E96 /* Frameworks */,
 				A909183B22CB0BFB003A5E96 /* Resources */,
-				2BF208900111014D5437A9E1 /* [CP] Embed Pods Frameworks */,
+				8F5155416204A2558EEB25F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -388,17 +372,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2BF208900111014D5437A9E1 /* [CP] Embed Pods Frameworks */ = {
+		8F5155416204A2558EEB25F2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ResourceUtilityClass/ResourceUtilityClass.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResourceUtilityClass.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +418,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90918CA22CB38E9003A5E96 /* NSDate+TimeInterVal.m in Sources */,
-				A90918CD22CB38E9003A5E96 /* UIView+Layout1.m in Sources */,
 				A909184522CB0BFB003A5E96 /* ViewController.m in Sources */,
 				A90918CF22CB38E9003A5E96 /* NSString+Tool.m in Sources */,
 				A909185022CB0BFB003A5E96 /* main.m in Sources */,
@@ -441,7 +426,6 @@
 				A90918D122CB38E9003A5E96 /* NSDictionary+Tool.m in Sources */,
 				A90918D322CB38E9003A5E96 /* UIImageView+Tool.m in Sources */,
 				A90918CC22CB38E9003A5E96 /* NSMutableAttributedString+Tool.m in Sources */,
-				A90918CB22CB38E9003A5E96 /* UIView+Tool.m in Sources */,
 				A90918B222CB369A003A5E96 /* Tool.m in Sources */,
 				A90918CE22CB38E9003A5E96 /* UIView+Layout.m in Sources */,
 				A90918B322CB369A003A5E96 /* Helper.m in Sources */,
@@ -618,7 +602,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ResourceUtilityClass/Header_moudle/PrefixAPIHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -636,7 +620,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/ResourceUtilityClass/Header_moudle/PrefixAPIHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

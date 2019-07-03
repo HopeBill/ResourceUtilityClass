@@ -17,12 +17,21 @@ s.source           = { :git => 'https://github.com/LiBiYong/ResourceUtilityClass
 s.ios.deployment_target = '8.0'
 
 #s.source_files = 'ResourceUtilityClass/**/*'
+#s.source_files = 'ResourceUtilityClass/Header_moudle/**/*'
 
 s.subspec 'Tool_moudle' do |tool|
-tool.source_files = 'OpenSourceLibrary/Tool_moudle/**/*'
+tool.source_files = 'ResourceUtilityClass/Tool_moudle/**/*'
+tool.frameworks = 'UIKit','Foundation'
 end
-s.subspec 'Header_moudle' do |header|
-header.source_files = 'OpenSourceLibrary/Header_moudle/**/*'
+s.subspec 'Header_moudle' do |hea|
+hea.source_files = 'ResourceUtilityClass/Header_moudle/**/*'
+hea.frameworks = 'UIKit','Foundation'
+end
+
+s.subspec 'Object_Categories' do |cate|
+cate.source_files = 'ResourceUtilityClass/Object_Categories/**/*'
+cate.frameworks = 'UIKit','Foundation'
+cate.dependency 'SDWebImage',       '~>4.4.2'
 end
 
 
@@ -30,7 +39,8 @@ end
 # }
 # end
 
-# s.public_header_files = 'Pod/Classes/**/*.h'
-# s.frameworks = 'UIKit'
-  s.dependency 'SDWebImage',         '~>4.4.2'
+#s.public_header_files = 'Example/ResourceUtilityClass/Header_moudle/**/*.h'
+# s.frameworks = 'UIKit','Foundation'
+#s.dependency 'SDWebImage',       '~>4.4.2'
+  
 end
