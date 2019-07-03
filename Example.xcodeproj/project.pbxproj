@@ -196,23 +196,15 @@
 			children = (
 				A90918B522CB38E9003A5E96 /* Object_Categories */,
 				A90918AD22CB369A003A5E96 /* Tool_moudle */,
-				A909188322CB0EDE003A5E96 /* Header_moudle */,
 			);
 			path = ResourceUtilityClass;
 			sourceTree = SOURCE_ROOT;
 		};
-		A909188322CB0EDE003A5E96 /* Header_moudle */ = {
+		A90918AD22CB369A003A5E96 /* Tool_moudle */ = {
 			isa = PBXGroup;
 			children = (
 				A90918B122CB369A003A5E96 /* Tool.h */,
 				A90918AF22CB369A003A5E96 /* Tool.m */,
-			);
-			path = Header_moudle;
-			sourceTree = "<group>";
-		};
-		A90918AD22CB369A003A5E96 /* Tool_moudle */ = {
-			isa = PBXGroup;
-			children = (
 				A90918AE22CB369A003A5E96 /* Helper.h */,
 				A90918B022CB369A003A5E96 /* Helper.m */,
 			);

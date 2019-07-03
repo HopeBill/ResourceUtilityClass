@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ResourceUtilityClass'
-s.version          = '0.1.0'
+s.version          = '0.1.1'
 s.summary          = 'ResourceUtilityClass.'
 
 s.description      = <<-DESC
@@ -22,10 +22,6 @@ s.ios.deployment_target = '8.0'
 s.subspec 'Tool_moudle' do |tool|
 tool.source_files = 'ResourceUtilityClass/Tool_moudle/**/*'
 tool.frameworks = 'UIKit','Foundation'
-end
-s.subspec 'Header_moudle' do |hea|
-hea.source_files = 'ResourceUtilityClass/Header_moudle/**/*'
-hea.frameworks = 'UIKit','Foundation'
 end
 
 s.subspec 'Object_Categories' do |cate|
