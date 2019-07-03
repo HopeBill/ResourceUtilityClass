@@ -86,6 +86,8 @@
 		A90918C722CB38E9003A5E96 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		A90918C822CB38E9003A5E96 /* NSString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
 		A90918C922CB38E9003A5E96 /* UIImageView+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Tool.m"; sourceTree = "<group>"; };
+		A90E558B22CC494B0026CC05 /* RequestAPIHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestAPIHeader.h; sourceTree = "<group>"; };
+		A90E558C22CC494B0026CC05 /* MacroHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
 		DA938D9647761E432ACE1786 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97B1DD3BDE9DF1236EDCE05 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -194,22 +196,12 @@
 		A909187222CB0CF2003A5E96 /* ResourceUtilityClass */ = {
 			isa = PBXGroup;
 			children = (
+				A90E558A22CC49270026CC05 /* Header_moudle */,
+				A90E558922CC473C0026CC05 /* Tool_moudle */,
 				A90918B522CB38E9003A5E96 /* Object_Categories */,
-				A90918AD22CB369A003A5E96 /* Tool_moudle */,
 			);
 			path = ResourceUtilityClass;
 			sourceTree = SOURCE_ROOT;
-		};
-		A90918AD22CB369A003A5E96 /* Tool_moudle */ = {
-			isa = PBXGroup;
-			children = (
-				A90918B122CB369A003A5E96 /* Tool.h */,
-				A90918AF22CB369A003A5E96 /* Tool.m */,
-				A90918AE22CB369A003A5E96 /* Helper.h */,
-				A90918B022CB369A003A5E96 /* Helper.m */,
-			);
-			path = Tool_moudle;
-			sourceTree = "<group>";
 		};
 		A90918B522CB38E9003A5E96 /* Object_Categories */ = {
 			isa = PBXGroup;
@@ -230,9 +222,29 @@
 				A90918C922CB38E9003A5E96 /* UIImageView+Tool.m */,
 				A90918C722CB38E9003A5E96 /* UIView+Layout.h */,
 				A90918BE22CB38E9003A5E96 /* UIView+Layout.m */,
-				A909188422CB0EDE003A5E96 /* ResourceUtilityClass.h */,
 			);
 			path = Object_Categories;
+			sourceTree = "<group>";
+		};
+		A90E558922CC473C0026CC05 /* Tool_moudle */ = {
+			isa = PBXGroup;
+			children = (
+				A90918B122CB369A003A5E96 /* Tool.h */,
+				A90918AF22CB369A003A5E96 /* Tool.m */,
+				A90918AE22CB369A003A5E96 /* Helper.h */,
+				A90918B022CB369A003A5E96 /* Helper.m */,
+			);
+			path = Tool_moudle;
+			sourceTree = "<group>";
+		};
+		A90E558A22CC49270026CC05 /* Header_moudle */ = {
+			isa = PBXGroup;
+			children = (
+				A909188422CB0EDE003A5E96 /* ResourceUtilityClass.h */,
+				A90E558C22CC494B0026CC05 /* MacroHeader.h */,
+				A90E558B22CC494B0026CC05 /* RequestAPIHeader.h */,
+			);
+			path = Header_moudle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

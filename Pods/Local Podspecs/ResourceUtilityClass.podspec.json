@@ -1,6 +1,6 @@
 {
   "name": "ResourceUtilityClass",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "ResourceUtilityClass.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LiBiYong/ResourceUtilityClass",
@@ -13,41 +13,19 @@
   },
   "source": {
     "git": "https://github.com/LiBiYong/ResourceUtilityClass.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "ResourceUtilityClass/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
   "dependencies": {
     "SDWebImage": [
       "~>4.4.2"
     ]
-  },
-  "subspecs": [
-    {
-      "name": "Tool_moudle",
-      "source_files": "ResourceUtilityClass/Tool_moudle/**/*",
-      "frameworks": [
-        "UIKit",
-        "Foundation"
-      ]
-    },
-    {
-      "name": "Header_moudle",
-      "source_files": "ResourceUtilityClass/Header_moudle/**/*",
-      "frameworks": [
-        "UIKit",
-        "Foundation"
-      ]
-    },
-    {
-      "name": "Object_Categories",
-      "source_files": "ResourceUtilityClass/Object_Categories/**/*",
-      "frameworks": [
-        "UIKit",
-        "Foundation"
-      ]
-    }
-  ]
+  }
 }

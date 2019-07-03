@@ -11,4 +11,7 @@
 
 #import <SDWebImage/UIImageView+WebCache.h>
 
+#import "MacroHeader.h"
+#import "RequestAPIHeader.h"
+
 #endif

@@ -1,14 +1,5 @@
 PODS:
-  - ResourceUtilityClass (0.1.0):
-    - ResourceUtilityClass/Header_moudle (= 0.1.0)
-    - ResourceUtilityClass/Object_Categories (= 0.1.0)
-    - ResourceUtilityClass/Tool_moudle (= 0.1.0)
-    - SDWebImage (~> 4.4.2)
-  - ResourceUtilityClass/Header_moudle (0.1.0):
-    - SDWebImage (~> 4.4.2)
-  - ResourceUtilityClass/Object_Categories (0.1.0):
-    - SDWebImage (~> 4.4.2)
-  - ResourceUtilityClass/Tool_moudle (0.1.0):
+  - ResourceUtilityClass (0.1.1):
     - SDWebImage (~> 4.4.2)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
@@ -26,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../Example"
 
 SPEC CHECKSUMS:
-  ResourceUtilityClass: 5354ce199690c040483b536fc320d373de7a1787
+  ResourceUtilityClass: 0a5d2505da187f9ab22c12725733da3195272a41
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
 PODFILE CHECKSUM: 0a6aeb327677813197d3465aa3cefb3de21fd501

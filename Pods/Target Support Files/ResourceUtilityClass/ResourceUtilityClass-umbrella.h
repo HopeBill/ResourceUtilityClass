@@ -10,17 +10,8 @@
 #endif
 #endif
 
-#import "ResourceUtilityClass.h"
-#import "NSArray+Tool.h"
-#import "NSDate+TimeInterVal.h"
-#import "NSDictionary+Tool.h"
-#import "NSMutableAttributedString+Tool.h"
-#import "NSNumber+Tool.h"
-#import "NSString+Tool.h"
-#import "UIImageView+Tool.h"
-#import "UIView+Layout.h"
-#import "Helper.h"
-#import "Tool.h"
+#import "MacroHeader.h"
+#import "RequestAPIHeader.h"
 #import "ResourceUtilityClass.h"
 #import "NSArray+Tool.h"
 #import "NSDate+TimeInterVal.h"
