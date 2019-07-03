@@ -11,7 +11,6 @@
 		A909184222CB0BFB003A5E96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A909184122CB0BFB003A5E96 /* AppDelegate.m */; };
 		A909184522CB0BFB003A5E96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A909184422CB0BFB003A5E96 /* ViewController.m */; };
 		A909184822CB0BFB003A5E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A909184622CB0BFB003A5E96 /* Main.storyboard */; };
-		A909184A22CB0BFB003A5E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A909184922CB0BFB003A5E96 /* Assets.xcassets */; };
 		A909184D22CB0BFB003A5E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A909184B22CB0BFB003A5E96 /* LaunchScreen.storyboard */; };
 		A909185022CB0BFB003A5E96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A909184F22CB0BFB003A5E96 /* main.m */; };
 		A909185A22CB0BFC003A5E96 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A909185922CB0BFC003A5E96 /* ExampleTests.m */; };
@@ -25,8 +24,14 @@
 		A90918CF22CB38E9003A5E96 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918BF22CB38E9003A5E96 /* NSString+Tool.m */; };
 		A90918D022CB38E9003A5E96 /* NSArray+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918C122CB38E9003A5E96 /* NSArray+Tool.m */; };
 		A90918D122CB38E9003A5E96 /* NSDictionary+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918C422CB38E9003A5E96 /* NSDictionary+Tool.m */; };
-		A90918D222CB38E9003A5E96 /* NSNumber+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918C622CB38E9003A5E96 /* NSNumber+Tool.m */; };
-		A90918D322CB38E9003A5E96 /* UIImageView+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A90918C922CB38E9003A5E96 /* UIImageView+Tool.m */; };
+		A90E55E522CC8BFE0026CC05 /* citySelect.plist in Resources */ = {isa = PBXBuildFile; fileRef = A90E55E222CC8BFE0026CC05 /* citySelect.plist */; };
+		A90E55E622CC8BFE0026CC05 /* locationCitydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = A90E55E322CC8BFE0026CC05 /* locationCitydict.plist */; };
+		A90E55E722CC8BFE0026CC05 /* citySearch.plist in Resources */ = {isa = PBXBuildFile; fileRef = A90E55E422CC8BFE0026CC05 /* citySearch.plist */; };
+		A90E55EA22CC9D0C0026CC05 /* yijiange_20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A90E55E822CC9D0C0026CC05 /* yijiange_20@2x.png */; };
+		A90E55EB22CC9D0C0026CC05 /* yijiange_20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A90E55E922CC9D0C0026CC05 /* yijiange_20@3x.png */; };
+		A90E55F422CCA2130026CC05 /* icon_dianxiaoer_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A90E55F122CCA2130026CC05 /* icon_dianxiaoer_white.png */; };
+		A90E55F522CCA2130026CC05 /* icon_dianxiaoer_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A90E55F222CCA2130026CC05 /* icon_dianxiaoer_white@2x.png */; };
+		A90E55F622CCA2130026CC05 /* icon_dianxiaoer_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A90E55F322CCA2130026CC05 /* icon_dianxiaoer_white@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +59,6 @@
 		A909184322CB0BFB003A5E96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A909184422CB0BFB003A5E96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A909184722CB0BFB003A5E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A909184922CB0BFB003A5E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A909184C22CB0BFB003A5E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A909184E22CB0BFB003A5E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A909184F22CB0BFB003A5E96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,22 +76,26 @@
 		A90918B122CB369A003A5E96 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
 		A90918B622CB38E9003A5E96 /* NSArray+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Tool.h"; sourceTree = "<group>"; };
 		A90918B722CB38E9003A5E96 /* NSDate+TimeInterVal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeInterVal.m"; sourceTree = "<group>"; };
-		A90918B922CB38E9003A5E96 /* NSNumber+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Tool.h"; sourceTree = "<group>"; };
 		A90918BA22CB38E9003A5E96 /* NSDictionary+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Tool.h"; sourceTree = "<group>"; };
 		A90918BB22CB38E9003A5E96 /* NSMutableAttributedString+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Tool.m"; sourceTree = "<group>"; };
-		A90918BD22CB38E9003A5E96 /* UIImageView+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Tool.h"; sourceTree = "<group>"; };
 		A90918BE22CB38E9003A5E96 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		A90918BF22CB38E9003A5E96 /* NSString+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
 		A90918C022CB38E9003A5E96 /* NSDate+TimeInterVal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeInterVal.h"; sourceTree = "<group>"; };
 		A90918C122CB38E9003A5E96 /* NSArray+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Tool.m"; sourceTree = "<group>"; };
 		A90918C322CB38E9003A5E96 /* NSMutableAttributedString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Tool.h"; sourceTree = "<group>"; };
 		A90918C422CB38E9003A5E96 /* NSDictionary+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Tool.m"; sourceTree = "<group>"; };
-		A90918C622CB38E9003A5E96 /* NSNumber+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Tool.m"; sourceTree = "<group>"; };
 		A90918C722CB38E9003A5E96 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		A90918C822CB38E9003A5E96 /* NSString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
-		A90918C922CB38E9003A5E96 /* UIImageView+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Tool.m"; sourceTree = "<group>"; };
 		A90E558B22CC494B0026CC05 /* RequestAPIHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestAPIHeader.h; sourceTree = "<group>"; };
 		A90E558C22CC494B0026CC05 /* MacroHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
+		A90E55E222CC8BFE0026CC05 /* citySelect.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citySelect.plist; sourceTree = "<group>"; };
+		A90E55E322CC8BFE0026CC05 /* locationCitydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = locationCitydict.plist; sourceTree = "<group>"; };
+		A90E55E422CC8BFE0026CC05 /* citySearch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citySearch.plist; sourceTree = "<group>"; };
+		A90E55E822CC9D0C0026CC05 /* yijiange_20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yijiange_20@2x.png"; sourceTree = "<group>"; };
+		A90E55E922CC9D0C0026CC05 /* yijiange_20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yijiange_20@3x.png"; sourceTree = "<group>"; };
+		A90E55F122CCA2130026CC05 /* icon_dianxiaoer_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_dianxiaoer_white.png; sourceTree = "<group>"; };
+		A90E55F222CCA2130026CC05 /* icon_dianxiaoer_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dianxiaoer_white@2x.png"; sourceTree = "<group>"; };
+		A90E55F322CCA2130026CC05 /* icon_dianxiaoer_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dianxiaoer_white@3x.png"; sourceTree = "<group>"; };
 		DA938D9647761E432ACE1786 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97B1DD3BDE9DF1236EDCE05 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,7 +175,6 @@
 				A909184322CB0BFB003A5E96 /* ViewController.h */,
 				A909184422CB0BFB003A5E96 /* ViewController.m */,
 				A909184622CB0BFB003A5E96 /* Main.storyboard */,
-				A909184922CB0BFB003A5E96 /* Assets.xcassets */,
 				A909184B22CB0BFB003A5E96 /* LaunchScreen.storyboard */,
 				A909184E22CB0BFB003A5E96 /* Info.plist */,
 				A909184F22CB0BFB003A5E96 /* main.m */,
@@ -197,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				A90E558A22CC49270026CC05 /* Header_moudle */,
+				A90E55E122CC8BDC0026CC05 /* Plist_moudle */,
+				A90E55DE22CC8BA80026CC05 /* Resource_moudle */,
 				A90E558922CC473C0026CC05 /* Tool_moudle */,
 				A90918B522CB38E9003A5E96 /* Object_Categories */,
 			);
@@ -214,12 +223,8 @@
 				A90918C422CB38E9003A5E96 /* NSDictionary+Tool.m */,
 				A90918C322CB38E9003A5E96 /* NSMutableAttributedString+Tool.h */,
 				A90918BB22CB38E9003A5E96 /* NSMutableAttributedString+Tool.m */,
-				A90918B922CB38E9003A5E96 /* NSNumber+Tool.h */,
-				A90918C622CB38E9003A5E96 /* NSNumber+Tool.m */,
 				A90918C822CB38E9003A5E96 /* NSString+Tool.h */,
 				A90918BF22CB38E9003A5E96 /* NSString+Tool.m */,
-				A90918BD22CB38E9003A5E96 /* UIImageView+Tool.h */,
-				A90918C922CB38E9003A5E96 /* UIImageView+Tool.m */,
 				A90918C722CB38E9003A5E96 /* UIView+Layout.h */,
 				A90918BE22CB38E9003A5E96 /* UIView+Layout.m */,
 			);
@@ -245,6 +250,44 @@
 				A90E558B22CC494B0026CC05 /* RequestAPIHeader.h */,
 			);
 			path = Header_moudle;
+			sourceTree = "<group>";
+		};
+		A90E55DE22CC8BA80026CC05 /* Resource_moudle */ = {
+			isa = PBXGroup;
+			children = (
+				A90E55F022CCA1D70026CC05 /* center */,
+				A90E55EF22CCA1CD0026CC05 /* home */,
+			);
+			path = Resource_moudle;
+			sourceTree = "<group>";
+		};
+		A90E55E122CC8BDC0026CC05 /* Plist_moudle */ = {
+			isa = PBXGroup;
+			children = (
+				A90E55E422CC8BFE0026CC05 /* citySearch.plist */,
+				A90E55E322CC8BFE0026CC05 /* locationCitydict.plist */,
+				A90E55E222CC8BFE0026CC05 /* citySelect.plist */,
+			);
+			path = Plist_moudle;
+			sourceTree = "<group>";
+		};
+		A90E55EF22CCA1CD0026CC05 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				A90E55E822CC9D0C0026CC05 /* yijiange_20@2x.png */,
+				A90E55E922CC9D0C0026CC05 /* yijiange_20@3x.png */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		A90E55F022CCA1D70026CC05 /* center */ = {
+			isa = PBXGroup;
+			children = (
+				A90E55F122CCA2130026CC05 /* icon_dianxiaoer_white.png */,
+				A90E55F222CCA2130026CC05 /* icon_dianxiaoer_white@2x.png */,
+				A90E55F322CCA2130026CC05 /* icon_dianxiaoer_white@3x.png */,
+			);
+			path = center;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,9 +395,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90E55EA22CC9D0C0026CC05 /* yijiange_20@2x.png in Resources */,
 				A909184D22CB0BFB003A5E96 /* LaunchScreen.storyboard in Resources */,
-				A909184A22CB0BFB003A5E96 /* Assets.xcassets in Resources */,
+				A90E55E722CC8BFE0026CC05 /* citySearch.plist in Resources */,
+				A90E55E622CC8BFE0026CC05 /* locationCitydict.plist in Resources */,
 				A909187422CB0CF9003A5E96 /* ResourceUtilityClass.podspec in Resources */,
+				A90E55E522CC8BFE0026CC05 /* citySelect.plist in Resources */,
+				A90E55F422CCA2130026CC05 /* icon_dianxiaoer_white.png in Resources */,
+				A90E55F522CCA2130026CC05 /* icon_dianxiaoer_white@2x.png in Resources */,
+				A90E55EB22CC9D0C0026CC05 /* yijiange_20@3x.png in Resources */,
+				A90E55F622CCA2130026CC05 /* icon_dianxiaoer_white@3x.png in Resources */,
 				A909184822CB0BFB003A5E96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,12 +434,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ResourceUtilityClass/ResourceUtilityClass.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ResourceUtilityClass.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -428,12 +476,10 @@
 				A909184222CB0BFB003A5E96 /* AppDelegate.m in Sources */,
 				A90918D022CB38E9003A5E96 /* NSArray+Tool.m in Sources */,
 				A90918D122CB38E9003A5E96 /* NSDictionary+Tool.m in Sources */,
-				A90918D322CB38E9003A5E96 /* UIImageView+Tool.m in Sources */,
 				A90918CC22CB38E9003A5E96 /* NSMutableAttributedString+Tool.m in Sources */,
 				A90918B222CB369A003A5E96 /* Tool.m in Sources */,
 				A90918CE22CB38E9003A5E96 /* UIView+Layout.m in Sources */,
 				A90918B322CB369A003A5E96 /* Helper.m in Sources */,
-				A90918D222CB38E9003A5E96 /* NSNumber+Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

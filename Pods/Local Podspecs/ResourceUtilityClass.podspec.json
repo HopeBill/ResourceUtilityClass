@@ -1,6 +1,6 @@
 {
   "name": "ResourceUtilityClass",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "summary": "ResourceUtilityClass.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LiBiYong/ResourceUtilityClass",
@@ -13,19 +13,19 @@
   },
   "source": {
     "git": "https://github.com/LiBiYong/ResourceUtilityClass.git",
-    "tag": "0.1.1"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "ResourceUtilityClass/**/*",
+  "resource_bundles": {
+    "utilityImage": [
+      "ResourceUtilityClass/**/*.png"
+    ]
+  },
   "frameworks": [
     "UIKit",
     "Foundation"
-  ],
-  "dependencies": {
-    "SDWebImage": [
-      "~>4.4.2"
-    ]
-  }
+  ]
 }

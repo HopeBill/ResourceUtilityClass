@@ -8,9 +8,6 @@
 #ifndef ResourceUtilityClass_h
 #define ResourceUtilityClass_h
 
-
-#import <SDWebImage/UIImageView+WebCache.h>
-
 #import "MacroHeader.h"
 #import "RequestAPIHeader.h"
 #import "Tool.h"

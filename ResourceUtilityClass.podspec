@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ResourceUtilityClass'
-s.version          = '0.1.4'
+s.version          = '0.1.5'
 s.summary          = 'ResourceUtilityClass.'
 
 s.description      = <<-DESC
@@ -19,7 +19,11 @@ s.ios.deployment_target = '8.0'
 s.source_files = 'ResourceUtilityClass/**/*'
 
 #s.public_header_files = 'Example/ResourceUtilityClass/Header_moudle/**/*.h'
+s.resource_bundles = {
+  'utilityImage' => ['ResourceUtilityClass/**/*.png']
+}
+
 s.frameworks = 'UIKit','Foundation'
-s.dependency 'SDWebImage',       '~>4.4.2'
+#s.dependency 'SDWebImage',       '~>4.4.2'
   
 end

@@ -1,24 +1,15 @@
 PODS:
-  - ResourceUtilityClass (0.1.1):
-    - SDWebImage (~> 4.4.2)
-  - SDWebImage (4.4.2):
-    - SDWebImage/Core (= 4.4.2)
-  - SDWebImage/Core (4.4.2)
+  - ResourceUtilityClass (0.1.5)
 
 DEPENDENCIES:
   - ResourceUtilityClass (from `../Example`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - SDWebImage
 
 EXTERNAL SOURCES:
   ResourceUtilityClass:
     :path: "../Example"
 
 SPEC CHECKSUMS:
-  ResourceUtilityClass: 0a5d2505da187f9ab22c12725733da3195272a41
-  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  ResourceUtilityClass: 11b654231a495e262b1037b93dde4a73a089588a
 
 PODFILE CHECKSUM: 0a6aeb327677813197d3465aa3cefb3de21fd501
 
