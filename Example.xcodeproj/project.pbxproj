@@ -54,7 +54,6 @@
 		A956A75F22CDEAC5004EE4CB /* icon_pindan.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A75C22CDEAC5004EE4CB /* icon_pindan.png */; };
 		A956A76022CDEAC5004EE4CB /* icon_pindan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A75D22CDEAC5004EE4CB /* icon_pindan@2x.png */; };
 		A956A76122CDEAC5004EE4CB /* icon_pindan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A956A75E22CDEAC5004EE4CB /* icon_pindan@3x.png */; };
-		A956A76422CDEBD8004EE4CB /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A76322CDEBD8004EE4CB /* UIImage+Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,8 +140,6 @@
 		A956A75C22CDEAC5004EE4CB /* icon_pindan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pindan.png; sourceTree = "<group>"; };
 		A956A75D22CDEAC5004EE4CB /* icon_pindan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pindan@2x.png"; sourceTree = "<group>"; };
 		A956A75E22CDEAC5004EE4CB /* icon_pindan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pindan@3x.png"; sourceTree = "<group>"; };
-		A956A76222CDEBD8004EE4CB /* UIImage+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tool.h"; sourceTree = "<group>"; };
-		A956A76322CDEBD8004EE4CB /* UIImage+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tool.m"; sourceTree = "<group>"; };
 		DA938D9647761E432ACE1786 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97B1DD3BDE9DF1236EDCE05 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -313,8 +310,6 @@
 				A956A64322CDAB1B004EE4CB /* NSString+Tool.m */,
 				A956A64822CDAB1B004EE4CB /* UIView+Layout.h */,
 				A956A64222CDAB1B004EE4CB /* UIView+Layout.m */,
-				A956A76222CDEBD8004EE4CB /* UIImage+Tool.h */,
-				A956A76322CDEBD8004EE4CB /* UIImage+Tool.m */,
 			);
 			path = Object_M;
 			sourceTree = "<group>";
@@ -573,7 +568,6 @@
 				A956A65322CDAB1B004EE4CB /* NSDate+TimeInterVal.m in Sources */,
 				A909184522CB0BFB003A5E96 /* ViewController.m in Sources */,
 				A909185022CB0BFB003A5E96 /* main.m in Sources */,
-				A956A76422CDEBD8004EE4CB /* UIImage+Tool.m in Sources */,
 				A909184222CB0BFB003A5E96 /* AppDelegate.m in Sources */,
 				A956A65622CDAB1B004EE4CB /* NSString+Tool.m in Sources */,
 				A956A65522CDAB1B004EE4CB /* UIView+Layout.m in Sources */,
