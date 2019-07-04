@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ResourceUtilityClass'
-s.version          = '0.2.0'
+s.version          = '0.2.1'
 s.summary          = 'ResourceUtilityClass.'
 
 s.description      = <<-DESC

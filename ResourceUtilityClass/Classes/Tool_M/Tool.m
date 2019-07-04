@@ -9,7 +9,7 @@
 #import "Tool.h"
 @implementation Tool
 
-- (UIImage *)getImageWithBoudleName:(NSString *)boudleName imgName:(NSString *)imgName {
++(UIImage *)getImageWithBoudleName:(NSString *)boudleName imgName:(NSString *)imgName {
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
     NSURL *url = [bundle URLForResource:boudleName withExtension:@"bundle"];
     NSBundle *targetBundle = [NSBundle bundleWithURL:url];
