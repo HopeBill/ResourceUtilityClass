@@ -11,6 +11,5 @@
 #import "MacroHeader.h"
 #import "RequestAPIHeader.h"
 #import "Tool.h"
-#import "UIImage+Tool.h"
 #import "Helper.h"
 #endif
