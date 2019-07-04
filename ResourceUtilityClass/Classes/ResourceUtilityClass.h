@@ -10,6 +10,6 @@
 
 #import "MacroHeader.h"
 #import "RequestAPIHeader.h"
-#import "Tool.h"
+//#import "Tool.h"
 #import "Helper.h"
 #endif

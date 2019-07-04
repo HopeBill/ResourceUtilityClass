@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ResourceUtilityClass'
-s.version          = '0.1.7'
+s.version          = '0.1.8'
 s.summary          = 'ResourceUtilityClass.'
 
 s.description      = <<-DESC
@@ -15,6 +15,8 @@ s.source           = { :git => 'https://github.com/LiBiYong/ResourceUtilityClass
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '8.0'
+
+
 
 s.source_files = 'ResourceUtilityClass/Classes/*'
 
@@ -35,7 +37,7 @@ s.subspec 'Tool_M' do |ss|
 end
 
 s.resource_bundles = {
-  'utilityImage' => ['ResourceUtilityClass/Assets/*.png']
+  'utilityImage' => ['ResourceUtilityClass/Assets/*']
 }
 
 s.frameworks = 'UIKit','Foundation'

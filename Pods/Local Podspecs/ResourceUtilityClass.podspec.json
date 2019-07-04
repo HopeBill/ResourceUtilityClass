@@ -1,6 +1,6 @@
 {
   "name": "ResourceUtilityClass",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "summary": "ResourceUtilityClass.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LiBiYong/ResourceUtilityClass",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LiBiYong/ResourceUtilityClass.git",
-    "tag": "0.1.6"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,7 +22,7 @@
   "public_header_files": "ResourceUtilityClass/Classes/ResourceUtilityClass.h",
   "resource_bundles": {
     "utilityImage": [
-      "ResourceUtilityClass/Assets/*.png"
+      "ResourceUtilityClass/Assets/*"
     ]
   },
   "frameworks": [

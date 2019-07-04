@@ -1,13 +1,13 @@
 PODS:
-  - ResourceUtilityClass (0.1.6):
-    - ResourceUtilityClass/Header_M (= 0.1.6)
-    - ResourceUtilityClass/Object_M (= 0.1.6)
-    - ResourceUtilityClass/Plist_M (= 0.1.6)
-    - ResourceUtilityClass/Tool_M (= 0.1.6)
-  - ResourceUtilityClass/Header_M (0.1.6)
-  - ResourceUtilityClass/Object_M (0.1.6)
-  - ResourceUtilityClass/Plist_M (0.1.6)
-  - ResourceUtilityClass/Tool_M (0.1.6)
+  - ResourceUtilityClass (0.1.7):
+    - ResourceUtilityClass/Header_M (= 0.1.7)
+    - ResourceUtilityClass/Object_M (= 0.1.7)
+    - ResourceUtilityClass/Plist_M (= 0.1.7)
+    - ResourceUtilityClass/Tool_M (= 0.1.7)
+  - ResourceUtilityClass/Header_M (0.1.7)
+  - ResourceUtilityClass/Object_M (0.1.7)
+  - ResourceUtilityClass/Plist_M (0.1.7)
+  - ResourceUtilityClass/Tool_M (0.1.7)
 
 DEPENDENCIES:
   - ResourceUtilityClass (from `../Example`)
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../Example"
 
 SPEC CHECKSUMS:
-  ResourceUtilityClass: 5d3eee89c9b9f7c686d4cf9666b093543fc52e23
+  ResourceUtilityClass: 1924a50f11219df160607a28dbe78b3e176e2346
 
 PODFILE CHECKSUM: 0a6aeb327677813197d3465aa3cefb3de21fd501
 
