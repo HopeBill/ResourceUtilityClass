@@ -1,6 +1,6 @@
 {
   "name": "ResourceUtilityClass",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "ResourceUtilityClass.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LiBiYong/ResourceUtilityClass",
@@ -13,12 +13,13 @@
   },
   "source": {
     "git": "https://github.com/LiBiYong/ResourceUtilityClass.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ResourceUtilityClass/Classes/**/*",
+  "source_files": "ResourceUtilityClass/Classes/*",
+  "public_header_files": "ResourceUtilityClass/Classes/ResourceUtilityClass.h",
   "resource_bundles": {
     "utilityImage": [
       "ResourceUtilityClass/Assets/*.png"
@@ -27,5 +28,23 @@
   "frameworks": [
     "UIKit",
     "Foundation"
+  ],
+  "subspecs": [
+    {
+      "name": "Header_M",
+      "source_files": "ResourceUtilityClass/Classes/Header_M/**/*"
+    },
+    {
+      "name": "Object_M",
+      "source_files": "ResourceUtilityClass/Classes/Object_M/*"
+    },
+    {
+      "name": "Plist_M",
+      "source_files": "ResourceUtilityClass/Classes/Plist_M/*"
+    },
+    {
+      "name": "Tool_M",
+      "source_files": "ResourceUtilityClass/Classes/Tool_M/*"
+    }
   ]
 }

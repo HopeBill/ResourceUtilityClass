@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ResourceUtilityClass'
-s.version          = '0.1.6'
+s.version          = '0.1.7'
 s.summary          = 'ResourceUtilityClass.'
 
 s.description      = <<-DESC
@@ -16,9 +16,24 @@ s.source           = { :git => 'https://github.com/LiBiYong/ResourceUtilityClass
 
 s.ios.deployment_target = '8.0'
 
-s.source_files = 'ResourceUtilityClass/Classes/**/*'
+s.source_files = 'ResourceUtilityClass/Classes/*'
 
-#s.public_header_files = 'Example/ResourceUtilityClass/Header_moudle/**/*.h'
+s.public_header_files = 'ResourceUtilityClass/Classes/ResourceUtilityClass.h'
+
+s.subspec 'Header_M' do |ss|
+    ss.source_files = 'ResourceUtilityClass/Classes/Header_M/**/*'
+end
+
+s.subspec 'Object_M' do |ss|
+    ss.source_files = 'ResourceUtilityClass/Classes/Object_M/*'
+end
+s.subspec 'Plist_M' do |ss|
+    ss.source_files = 'ResourceUtilityClass/Classes/Plist_M/*'
+end
+s.subspec 'Tool_M' do |ss|
+    ss.source_files = 'ResourceUtilityClass/Classes/Tool_M/*'
+end
+
 s.resource_bundles = {
   'utilityImage' => ['ResourceUtilityClass/Assets/*.png']
 }
