@@ -18,10 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ResourceUtilityClass/**/*",
+  "source_files": "ResourceUtilityClass/Classes/**/*",
   "resource_bundles": {
     "utilityImage": [
-      "ResourceUtilityClass/**/*.png"
+      "ResourceUtilityClass/Assets/*.png"
     ]
   },
   "frameworks": [
