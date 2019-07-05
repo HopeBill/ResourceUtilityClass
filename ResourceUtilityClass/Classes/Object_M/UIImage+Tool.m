@@ -7,16 +7,31 @@
 //
 
 #import "UIImage+Tool.h"
+@interface PodFakeClass : NSObject
+@end
+@implementation PodFakeClass
+@end
+
 
 @implementation UIImage (Tool)
-+ (instancetype)getImgWithName:(NSString *)name bundle:(NSString *)bundleName targetClass:(Class)targetClass{
-    
-    NSInteger scale = [[UIScreen mainScreen] scale];
-    NSBundle *currentBundle = [NSBundle bundleForClass:targetClass];
-    NSString *name1 = [NSString stringWithFormat:@"%@@%zdx",name,scale];
-    NSString *dir = [NSString stringWithFormat:@"%@.bundle",bundleName];
-    NSString *path = [currentBundle pathForResource:name1 ofType:@"png" inDirectory:dir];
-    return path ? [UIImage imageWithContentsOfFile:path] : nil;
++ (instancetype)getImgName:(NSString *)imageName withBundle:(NSString *)bundleName{
 
+    NSInteger scale = [[UIScreen mainScreen] scale];
+    NSBundle *currentBundle = [NSBundle bundleForClass:[PodFakeClass class]];
+    NSString *name = [NSString stringWithFormat:@"%@@%zdx",imageName,scale];
+  
+    NSURL *url = [currentBundle URLForResource:bundleName withExtension:@"bundle"];
+    if (url) {
+        NSBundle *targetBundle = [NSBundle bundleWithURL:url];
+        UIImage *image = [UIImage imageNamed:name
+                                    inBundle:targetBundle
+               compatibleWithTraitCollection:nil];
+        return image;
+    }else{
+        return [UIImage imageNamed:name];
+    }
+    
+    
 }
+
 @end

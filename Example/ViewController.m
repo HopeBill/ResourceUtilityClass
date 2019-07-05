@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 #import "ResourceUtilityClass.h"
-#import "NSArray+Tool.h"
+@interface Pod1FakeClass : NSObject
+@end
+@implementation Pod1FakeClass
+@end
+
 @interface ViewController ()
 
 @end
@@ -17,10 +21,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    UIImage *image=[UIImage imageNamed:@"icon_mess_deselect"];
+//     UIImage *image1=[UIImage imageNamed:@"1"];
+    
     // Do any additional setup after loading the view, typically from a nib.
 //    ArrayJsonString
     
-}
+//    UIImage *imge=[UIImage getImgName:@"icon_mess_deselect" withBundle:@"TabBarImage"];
+    
 
+    
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+//   [self presentViewController:[YYViewController new] animated:YES completion:nil];
+}
 
 @end
