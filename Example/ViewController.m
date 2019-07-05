@@ -2,19 +2,15 @@
 //  ViewController.m
 //  Example
 //
-//  Created by Bill on 2/7/2019.
+//  Created by Bill on 5/7/2019.
 //  Copyright © 2019 Bill. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "ResourceUtilityClass.h"
-#import "TTViewController.h"
-@interface Pod1FakeClass : NSObject
-@end
-@implementation Pod1FakeClass
-@end
+#import "uuViewController.h"
 
 @interface ViewController ()
+
 
 @end
 
@@ -22,20 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    UIImage *image=[UIImage imageNamed:@"icon_mess_deselect"];
-//     UIImage *image1=[UIImage imageNamed:@"1"];
-    
-    // Do any additional setup after loading the view, typically from a nib.
-//    ArrayJsonString
-    
-//    UIImage *imge=[UIImage getImgName:@"icon_mess_deselect" withBundle:@"TabBarImage"];
-    
-
-    
+    // Do any additional setup after loading the view.
 }
+
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-   [self presentViewController:[TTViewController new] animated:YES completion:nil];
+    [self presentViewController:[[uuViewController alloc] init] animated:YES completion:nil];
 }
 
 @end

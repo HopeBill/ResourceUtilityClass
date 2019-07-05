@@ -1,6 +1,6 @@
 {
   "name": "ResourceUtilityClass",
-  "version": "0.2.4",
+  "version": "0.2.6",
   "summary": "ResourceUtilityClass.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LiBiYong/ResourceUtilityClass",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LiBiYong/ResourceUtilityClass.git",
-    "tag": "0.2.4"
+    "tag": "0.2.6"
   },
   "platforms": {
     "ios": "8.0"
@@ -31,17 +31,8 @@
   ],
   "subspecs": [
     {
-      "name": "VC_M",
-      "source_files": "ResourceUtilityClass/Classes/VC_M/**/*",
-      "dependencies": {
-        "ResourceUtilityClass/Classes": [
-
-        ]
-      }
-    },
-    {
       "name": "Header_M",
-      "source_files": "ResourceUtilityClass/Classes/Header_M/**/*"
+      "source_files": "ResourceUtilityClass/Classes/Header_M/*"
     },
     {
       "name": "Object_M",

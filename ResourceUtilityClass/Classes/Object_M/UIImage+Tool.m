@@ -18,6 +18,7 @@
     NSBundle *currentBundle = [NSBundle bundleForClass:[PodFakeClass class]];
   
     NSURL *url = [currentBundle URLForResource:bundleName withExtension:@"bundle"];
+    NSLog(@"路径：%ld",currentBundle);
     if (url) {
         NSBundle *targetBundle = [NSBundle bundleWithURL:url];
         UIImage *image = [UIImage imageNamed:imageName
@@ -26,6 +27,7 @@
         return image;
     }else{
         return [UIImage imageNamed:imageName];
+
     }
     
     

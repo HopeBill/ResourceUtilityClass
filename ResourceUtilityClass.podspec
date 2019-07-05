@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ResourceUtilityClass'
-s.version          = '0.2.6'
+s.version          = '0.2.7'
 s.summary          = 'ResourceUtilityClass.'
 
 s.description      = <<-DESC
@@ -20,13 +20,8 @@ s.source_files = 'ResourceUtilityClass/Classes/*'
 
 s.public_header_files = 'ResourceUtilityClass/Classes/ResourceUtilityClass.h'
 
-s.subspec 'VC_M' do |ss|
-    ss.source_files = 'ResourceUtilityClass/Classes/VC_M/**/*'
-    #ss.dependency 'ResourceUtilityClass/Classes/Object_M'
-end
-
 s.subspec 'Header_M' do |ss|
-    ss.source_files = 'ResourceUtilityClass/Classes/Header_M/**/*'
+    ss.source_files = 'ResourceUtilityClass/Classes/Header_M/*'
     
 end
 
@@ -42,8 +37,14 @@ s.subspec 'Tool_M' do |ss|
 end
 
 s.resource_bundle = {
-  'TabBarImage' => ['ResourceUtilityClass/Assets/*.xcassets']
+    'TabBarImage' => ['ResourceUtilityClass/Assets/*.xcassets']
 }
+
+#s.subspec 'VC_M' do |ss|
+#   ss.source_files = 'ResourceUtilityClass/Classes/VC_M/*'
+    #ss.dependency 'ResourceUtilityClass/Classes/Object_M'
+    #end
+
 
 s.frameworks = 'UIKit','Foundation'
 #s.dependency 'SDWebImage',       '~>4.4.2'

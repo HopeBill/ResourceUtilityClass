@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0571C762FD82AC5B96A9F259 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA938D9647761E432ACE1786 /* Pods_Example.framework */; };
 		A909184222CB0BFB003A5E96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A909184122CB0BFB003A5E96 /* AppDelegate.m */; };
-		A909184522CB0BFB003A5E96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A909184422CB0BFB003A5E96 /* ViewController.m */; };
 		A909184822CB0BFB003A5E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A909184622CB0BFB003A5E96 /* Main.storyboard */; };
 		A909184D22CB0BFB003A5E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A909184B22CB0BFB003A5E96 /* LaunchScreen.storyboard */; };
 		A909185022CB0BFB003A5E96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A909184F22CB0BFB003A5E96 /* main.m */; };
@@ -25,14 +24,12 @@
 		A956A81C22CF2539004EE4CB /* NSArray+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A80222CF2538004EE4CB /* NSArray+Tool.m */; };
 		A956A81D22CF2539004EE4CB /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A80422CF2538004EE4CB /* UIImage+Tool.m */; };
 		A956A81E22CF2539004EE4CB /* NSDictionary+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A80522CF2538004EE4CB /* NSDictionary+Tool.m */; };
-		A956A81F22CF2539004EE4CB /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A80822CF2538004EE4CB /* SSViewController.m */; };
 		A956A82022CF2539004EE4CB /* locationCitydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = A956A80A22CF2538004EE4CB /* locationCitydict.plist */; };
 		A956A82122CF2539004EE4CB /* citySearch.plist in Resources */ = {isa = PBXBuildFile; fileRef = A956A80B22CF2538004EE4CB /* citySearch.plist */; };
 		A956A82222CF2539004EE4CB /* citySelect.plist in Resources */ = {isa = PBXBuildFile; fileRef = A956A80C22CF2538004EE4CB /* citySelect.plist */; };
-		A956A82322CF2539004EE4CB /* YYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A81222CF2538004EE4CB /* YYViewController.m */; };
 		A956A82422CF2539004EE4CB /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A956A81422CF2538004EE4CB /* Image.xcassets */; };
 		A956A82522CF2539004EE4CB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A956A81522CF2538004EE4CB /* .gitkeep */; };
-		A956A82822CF254E004EE4CB /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A82722CF254E004EE4CB /* TTViewController.m */; };
+		A956A84E22CF3CE3004EE4CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A956A84D22CF3CE3004EE4CB /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +54,6 @@
 		A909183D22CB0BFB003A5E96 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A909184022CB0BFB003A5E96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A909184122CB0BFB003A5E96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A909184322CB0BFB003A5E96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A909184422CB0BFB003A5E96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A909184722CB0BFB003A5E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A909184C22CB0BFB003A5E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A909184E22CB0BFB003A5E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,19 +84,15 @@
 		A956A80522CF2538004EE4CB /* NSDictionary+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Tool.m"; sourceTree = "<group>"; };
 		A956A80622CF2538004EE4CB /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		A956A80722CF2538004EE4CB /* NSString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
-		A956A80822CF2538004EE4CB /* SSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
 		A956A80A22CF2538004EE4CB /* locationCitydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = locationCitydict.plist; sourceTree = "<group>"; };
 		A956A80B22CF2538004EE4CB /* citySearch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citySearch.plist; sourceTree = "<group>"; };
 		A956A80C22CF2538004EE4CB /* citySelect.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citySelect.plist; sourceTree = "<group>"; };
-		A956A80D22CF2538004EE4CB /* YYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYViewController.h; sourceTree = "<group>"; };
 		A956A80F22CF2538004EE4CB /* RequestAPIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestAPIHeader.h; sourceTree = "<group>"; };
 		A956A81022CF2538004EE4CB /* MacroHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
-		A956A81122CF2538004EE4CB /* SSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
-		A956A81222CF2538004EE4CB /* YYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYViewController.m; sourceTree = "<group>"; };
 		A956A81422CF2538004EE4CB /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		A956A81522CF2538004EE4CB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		A956A82622CF254E004EE4CB /* TTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
-		A956A82722CF254E004EE4CB /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+		A956A84C22CF3CE3004EE4CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A956A84D22CF3CE3004EE4CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DA938D9647761E432ACE1786 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97B1DD3BDE9DF1236EDCE05 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,8 +169,8 @@
 				A909187322CB0CF9003A5E96 /* ResourceUtilityClass.podspec */,
 				A909184022CB0BFB003A5E96 /* AppDelegate.h */,
 				A909184122CB0BFB003A5E96 /* AppDelegate.m */,
-				A909184322CB0BFB003A5E96 /* ViewController.h */,
-				A909184422CB0BFB003A5E96 /* ViewController.m */,
+				A956A84C22CF3CE3004EE4CB /* ViewController.h */,
+				A956A84D22CF3CE3004EE4CB /* ViewController.m */,
 				A909184622CB0BFB003A5E96 /* Main.storyboard */,
 				A909184B22CB0BFB003A5E96 /* LaunchScreen.storyboard */,
 				A909184E22CB0BFB003A5E96 /* Info.plist */,
@@ -218,10 +209,7 @@
 		A956A7F222CF2538004EE4CB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A956A80D22CF2538004EE4CB /* YYViewController.h */,
-				A956A81222CF2538004EE4CB /* YYViewController.m */,
 				A956A7F322CF2538004EE4CB /* ResourceUtilityClass.h */,
-				A956A82922CF26F0004EE4CB /* VC_M */,
 				A956A80E22CF2538004EE4CB /* Header_M */,
 				A956A7F922CF2538004EE4CB /* Object_M */,
 				A956A80922CF2538004EE4CB /* Plist_M */,
@@ -288,17 +276,6 @@
 				A956A81522CF2538004EE4CB /* .gitkeep */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		A956A82922CF26F0004EE4CB /* VC_M */ = {
-			isa = PBXGroup;
-			children = (
-				A956A81122CF2538004EE4CB /* SSViewController.h */,
-				A956A80822CF2538004EE4CB /* SSViewController.m */,
-				A956A82622CF254E004EE4CB /* TTViewController.h */,
-				A956A82722CF254E004EE4CB /* TTViewController.m */,
-			);
-			path = VC_M;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,15 +455,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A956A81822CF2539004EE4CB /* NSDate+TimeInterVal.m in Sources */,
-				A909184522CB0BFB003A5E96 /* ViewController.m in Sources */,
 				A956A81E22CF2539004EE4CB /* NSDictionary+Tool.m in Sources */,
 				A909185022CB0BFB003A5E96 /* main.m in Sources */,
 				A909184222CB0BFB003A5E96 /* AppDelegate.m in Sources */,
-				A956A82822CF254E004EE4CB /* TTViewController.m in Sources */,
-				A956A81F22CF2539004EE4CB /* SSViewController.m in Sources */,
-				A956A82322CF2539004EE4CB /* YYViewController.m in Sources */,
 				A956A81B22CF2539004EE4CB /* NSString+Tool.m in Sources */,
 				A956A81A22CF2539004EE4CB /* UIView+Layout.m in Sources */,
+				A956A84E22CF3CE3004EE4CB /* ViewController.m in Sources */,
 				A956A81C22CF2539004EE4CB /* NSArray+Tool.m in Sources */,
 				A956A81622CF2539004EE4CB /* Tool.m in Sources */,
 				A956A81722CF2539004EE4CB /* Helper.m in Sources */,
@@ -664,6 +638,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -683,6 +658,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
