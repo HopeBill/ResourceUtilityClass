@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ResourceUtilityClass.h"
+#import "TTViewController.h"
 @interface Pod1FakeClass : NSObject
 @end
 @implementation Pod1FakeClass
@@ -34,7 +35,7 @@
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-//   [self presentViewController:[YYViewController new] animated:YES completion:nil];
+   [self presentViewController:[TTViewController new] animated:YES completion:nil];
 }
 
 @end

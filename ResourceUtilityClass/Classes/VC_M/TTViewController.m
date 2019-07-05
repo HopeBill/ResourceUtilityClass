@@ -7,7 +7,7 @@
 //
 
 #import "TTViewController.h"
-
+//#import "UIImage+Tool.h"
 @interface TTViewController ()
 
 @end
@@ -17,16 +17,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+//    UIImage *img=[UIImage getImgName:@"icon_mess_select" withBundle:@"TabBarImage"];
+    
+    
+//    UIImage *imagev=[self getImageWithBoudleName:@"TabBarImage" imgName:@"icon_mess_select"];
+
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (UIImage *)getImageWithBoudleName:(NSString *)boudleName imgName:(NSString *)imgName{
+    
+     NSInteger scale = [[UIScreen mainScreen] scale];
+    
+    NSString *name = [NSString stringWithFormat:@"%@@%zdx.png",imgName,scale];
+    
+    
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSURL *url = [bundle URLForResource:boudleName withExtension:@"bundle"];
+    if (url) {
+        NSBundle *targetBundle = [NSBundle bundleWithURL:url];
+        UIImage *image = [UIImage imageNamed:name
+                                    inBundle:targetBundle
+               compatibleWithTraitCollection:nil];
+        return image;
+    }else{
+        return [UIImage imageNamed:name];
+    }
+    
 }
-*/
-
 @end
