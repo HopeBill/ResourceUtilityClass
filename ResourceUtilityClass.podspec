@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ResourceUtilityClass'
-s.version          = '0.2.4'
+s.version          = '0.2.5'
 s.summary          = 'ResourceUtilityClass.'
 
 s.description      = <<-DESC
@@ -22,14 +22,17 @@ s.public_header_files = 'ResourceUtilityClass/Classes/ResourceUtilityClass.h'
 
 s.subspec 'VC_M' do |ss|
     ss.source_files = 'ResourceUtilityClass/Classes/VC_M/**/*'
+    #ss.dependency 'ResourceUtilityClass/Classes/Object_M'
 end
 
 s.subspec 'Header_M' do |ss|
     ss.source_files = 'ResourceUtilityClass/Classes/Header_M/**/*'
+    
 end
 
 s.subspec 'Object_M' do |ss|
     ss.source_files = 'ResourceUtilityClass/Classes/Object_M/*'
+    
 end
 s.subspec 'Plist_M' do |ss|
     ss.source_files = 'ResourceUtilityClass/Classes/Plist_M/*'

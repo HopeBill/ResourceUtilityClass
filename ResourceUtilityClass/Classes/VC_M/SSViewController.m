@@ -7,7 +7,7 @@
 //
 
 #import "SSViewController.h"
-#import "ResourceUtilityClass.h"
+
 
 @interface SSViewController ()
 

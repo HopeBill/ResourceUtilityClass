@@ -32,7 +32,12 @@
   "subspecs": [
     {
       "name": "VC_M",
-      "source_files": "ResourceUtilityClass/Classes/VC_M/**/*"
+      "source_files": "ResourceUtilityClass/Classes/VC_M/**/*",
+      "dependencies": {
+        "ResourceUtilityClass/Classes": [
+
+        ]
+      }
     },
     {
       "name": "Header_M",
